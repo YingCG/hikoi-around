@@ -6,7 +6,7 @@ function NzBirds() {
     return (
         <>
             <h1>NZ Birdstories</h1>
-            <div className='list'>
+            <div className='card-list'>
                 {birdData.map((birds) => {
                     return <Birdcard key={birds.id} type={birds.type} name={birds.name} description={birds.description} />
                 })}

@@ -5,10 +5,8 @@ function About() {
     return (
         <>
             <div className="page-container">
-                <h3>
-                    Hikoi Around your neighbourhood
-                </h3>
                 
+            <h3>10 mins walk</h3>
                 <p>
                     In this buzz of productivity, most of us forget to stop up and look at what is around us. 
                     Here, we suggest you to make a habit of talking  10-minute walks daily, to experience the relationship between people and places around you. 
@@ -22,6 +20,11 @@ function About() {
                     <li>Stress Reduction</li>
                 </ul>
             
+            <h3>Let's go for a walk</h3>
+            <p>
+                RubUrban is a fluid collective of artist using the creative process of frottage (or rubbing) to make art and connect communities with their environment
+            </p>
+
             </div>
         </>
     )

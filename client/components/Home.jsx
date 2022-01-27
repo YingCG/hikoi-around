@@ -1,12 +1,13 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import NzBirds from './NzBirds';
 
 function Home() {
   return (
     <>
       <div className='main'>
-      <NzBirds/>
+      <NavLink exact activeClassName='active-link' to='/nature' >Nature</NavLink>
+
       </div>
     </>
   )
