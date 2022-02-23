@@ -1,10 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #faf8f1;
   color: #0a1520;
   font-family: 'Poppins', sans-serif;
 }
 
-.main .title {
+.main-container .title {
   display: flex;
   flex-direction: row;
 }
@@ -15,9 +19,9 @@ body {
   padding-right: 30px;
 }
 
-.main div {
+/* .main-container div {
   margin: 20px 20px;
-}
+} */
 
 a {
   text-decoration-line: none;
@@ -25,13 +29,6 @@ margin: 1rem;
 color: green;
 font-weight: 600;
 }
-
-img {
-  max-height: 200px;
-}
-
-
-
 
 
 .active-link{
@@ -59,4 +56,14 @@ img {
 
 .App-nav {
   justify-content: space-around;
+}
+
+.home-image {
+  width: 100%;
+  min-height: 500px;
+  object-fit: cover;
+  justify-content: center;
+  /* background-image: url('./images/photo-1487956382158-bb926046304a.jpg'); */
+  background-repeat: no-repeat;
+  z-index: -2;
 }

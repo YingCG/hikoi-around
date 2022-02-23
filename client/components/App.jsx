@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import About from './About';
+import Art from './Art';
 import Home from './Home';
 import NzBirds from './NzBirds';
 import Urban from './Urban';
@@ -20,7 +20,7 @@ function App () {
         <Header />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/about" exact component={About} />
+          <Route path="/art" exact component={Art} />
           <Route path="/urban" exact component={Urban} />
           <Route path="/nature" exact component={Nature} />
           <Route path="/nature/nzbirds" exact component={NzBirds} />
