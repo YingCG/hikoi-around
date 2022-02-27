@@ -6,6 +6,7 @@ body {
   background-color: #faf8f1;
   color: #0a1520;
   font-family: 'Poppins', sans-serif;
+  margin: 0;
 }
 
 .main-container .title {
@@ -19,17 +20,12 @@ body {
   padding-right: 30px;
 }
 
-/* .main-container div {
-  margin: 20px 20px;
-} */
-
 a {
   text-decoration-line: none;
 margin: 1rem;
 color: green;
 font-weight: 600;
 }
-
 
 .active-link{
   color: #4FBDBA;
@@ -60,10 +56,38 @@ font-weight: 600;
 
 .home-image {
   width: 100%;
-  min-height: 500px;
+  min-height: 400px;
   object-fit: cover;
   justify-content: center;
   /* background-image: url('./images/photo-1487956382158-bb926046304a.jpg'); */
   background-repeat: no-repeat;
   z-index: -2;
+}
+
+.banner-contents{
+  position: absolute;
+  color: white;
+  top: 300px;
+  width: 40%;
+  margin: 25px;
+  z-index: 1;
+}
+
+.top-container{
+  align-items: center;
+}
+
+.art-journal{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 20px 20px;
+}
+
+.card {
+  width: 100%;
+}
+
+.session-image {
+  width: 100%;
+  height: 300px;
 }
