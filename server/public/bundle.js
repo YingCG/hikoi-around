@@ -11,13 +11,13 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router/esm/react-router.js");
-/* harmony import */ var _Art__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Art */ "./client/components/Art.jsx");
-/* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home */ "./client/components/Home.jsx");
-/* harmony import */ var _NzBirds__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NzBirds */ "./client/components/NzBirds.jsx");
-/* harmony import */ var _Urban__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Urban */ "./client/components/Urban.jsx");
-/* harmony import */ var _Nature__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Nature */ "./client/components/Nature.jsx");
-/* harmony import */ var _Walks__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Walks */ "./client/components/Walks.jsx");
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Header */ "./client/components/Header.jsx");
+/* harmony import */ var _Home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home */ "./client/components/Home.jsx");
+/* harmony import */ var _NzBirds__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NzBirds */ "./client/components/NzBirds.jsx");
+/* harmony import */ var _Rubbing__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Rubbing */ "./client/components/Rubbing.jsx");
+/* harmony import */ var _Nature__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Nature */ "./client/components/Nature.jsx");
+/* harmony import */ var _Walks__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Walks */ "./client/components/Walks.jsx");
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Header */ "./client/components/Header.jsx");
+/* harmony import */ var _TenMinsWalk__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./TenMinsWalk */ "./client/components/TenMinsWalk.jsx");
 
 
 
@@ -31,81 +31,30 @@ __webpack_require__.r(__webpack_exports__);
 function App() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "App"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Header__WEBPACK_IMPORTED_MODULE_7__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Switch, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Header__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Switch, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
     path: "/",
     exact: true,
-    component: _Home__WEBPACK_IMPORTED_MODULE_2__["default"]
+    component: _Home__WEBPACK_IMPORTED_MODULE_1__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
-    path: "/art",
+    path: "/10mins-walk",
     exact: true,
-    component: _Art__WEBPACK_IMPORTED_MODULE_1__["default"]
+    component: _TenMinsWalk__WEBPACK_IMPORTED_MODULE_7__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
-    path: "/urban",
+    path: "/rubbing",
     exact: true,
-    component: _Urban__WEBPACK_IMPORTED_MODULE_4__["default"]
+    component: _Rubbing__WEBPACK_IMPORTED_MODULE_3__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
     path: "/nature",
     exact: true,
-    component: _Nature__WEBPACK_IMPORTED_MODULE_5__["default"]
+    component: _Nature__WEBPACK_IMPORTED_MODULE_4__["default"]
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
     path: "/nature/nzbirds",
     exact: true,
-    component: _NzBirds__WEBPACK_IMPORTED_MODULE_3__["default"]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, {
-    path: "/walks",
-    exact: true,
-    component: _Walks__WEBPACK_IMPORTED_MODULE_6__["default"]
+    component: _NzBirds__WEBPACK_IMPORTED_MODULE_2__["default"]
   }))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
-
-/***/ }),
-
-/***/ "./client/components/Art.jsx":
-/*!***********************************!*\
-  !*** ./client/components/Art.jsx ***!
-  \***********************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-
-function Art() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "main-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "art-journal"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    className: "session-image",
-    src: "/images/photo-1487956382158-bb926046304a.jpg",
-    alt: "walkingimage"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Frottage Art")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    className: "session-image",
-    src: "/images/photo-1487956382158-bb926046304a.jpg",
-    alt: "walkingimage"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Sketch")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    className: "session-image",
-    src: "/images/photo-1487956382158-bb926046304a.jpg",
-    alt: "walkingimage"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Ideas")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    className: "session-image",
-    src: "/images/photo-1487956382158-bb926046304a.jpg",
-    alt: "walkingimage"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Photography")))));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Art);
 
 /***/ }),
 
@@ -155,16 +104,12 @@ function Header() {
   }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.NavLink, {
     exact: true,
     activeClassName: "active-link",
-    to: "/art"
-  }, "Art"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.NavLink, {
+    to: "/10mins-walk"
+  }, "10 Mins Walk"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.NavLink, {
     exact: true,
     activeClassName: "active-link",
-    to: "/urban"
-  }, "Urban"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.NavLink, {
-    exact: true,
-    activeClassName: "active-link",
-    to: "/nature"
-  }, "Nature"))));
+    to: "/rubbing"
+  }, "Frottage Art"))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -192,19 +137,37 @@ function Home() {
     className: "top-container"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     className: "home-image",
+    src: "/images/aeroplane_curiousEarthworm.jpg",
+    alt: "walkingimage"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "page-contents"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Make Creative Part of your Everday Life"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "In this buss of productivity, what happens to the creative mind and body? "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Ten minutes isn't a huge time commitment (that's the point!), but those minutes really add up over the course of the day. The physical health benefits of 30 minutes of walking each day are numerous! We get some fresh air, increased Vitamin D, regular walk also help to maintain bone density."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Clearer, Sharper, Calmer Mind"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Aware of yourself & surrounding"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Make Art"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "art-journal"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "session-image",
     src: "/images/photo-1487956382158-bb926046304a.jpg",
     alt: "walkingimage"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "banner-contents"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "10-Minute Walks"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Taking a few 10-minutes walks spread throughout the day every day makes a difference. Not only it is good for your physical health, it also positively impacts your mood and mental health."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    className: "banner-btn"
-  }, "View More"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "page-contents"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Make Creative Part of your Everday Life"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "In this buss of productivity, what happens to the creative mind and body? "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Ten minutes isn't a huge time commitment (that's the point!), but those minutes really add up over the course of the day. The physical health benefits of 30 minutes of walking each day are numerous! We get some fresh air, increased Vitamin D, regular walk also help to maintain bone density."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Clearer, Sharper, Calmer Mind"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Reduce risk of obesity"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Aware of yourself & surrounding"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Make Art"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "bottom-banner"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Treat yourself for 10 minutes"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Set an alarm, put it in your daily routine. If you are struggling, get our rubbing journal to help!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    className: "banner-btn"
-  }, "Join Us!"))));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Birds")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "session-image",
+    src: "/images/photo-1487956382158-bb926046304a.jpg",
+    alt: "walkingimage"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Plants")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "session-image",
+    src: "/images/photo-1487956382158-bb926046304a.jpg",
+    alt: "walkingimage"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Places")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "session-image",
+    src: "/images/photo-1487956382158-bb926046304a.jpg",
+    alt: "walkingimage"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Walking Journal")))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -227,7 +190,9 @@ __webpack_require__.r(__webpack_exports__);
 function Nature() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "main"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.NavLink, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "map"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.NavLink, {
     exact: true,
     activeClassName: "active-link",
     to: "/nature/nzbirds"
@@ -270,10 +235,10 @@ function NzBirds() {
 
 /***/ }),
 
-/***/ "./client/components/Urban.jsx":
-/*!*************************************!*\
-  !*** ./client/components/Urban.jsx ***!
-  \*************************************/
+/***/ "./client/components/Rubbing.jsx":
+/*!***************************************!*\
+  !*** ./client/components/Rubbing.jsx ***!
+  \***************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -282,13 +247,98 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function Urban() {
+function Rubbing() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "main"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Hikoi Around your neighbourhood"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Taking a few 10-minutes walks throughout the day everyday makes a difference. Not only it is good for your physical health, it also positively impacts your mood and mental health. Often places that seem ordinary and unremarkable for some are cherished dearly by others.")));
+    className: "main-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "top-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "home-image",
+    src: "/images/FrottagePicture.jpg",
+    alt: "walkingimage"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "banner-contents"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "page-contents"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Experience the relationship between people and places"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "To weave art into your everday life help you to keep the habit of taking 10minstues walk dairy. Living a flife with experience of the relationship between people and places with just 10mins a day! Hikoi around your neighbourhood, explore surfaces and textures. Make print by rubbing what you find in the spacexs and pla ces of your surrounding environment.  ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "twoCol"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "twoCol-card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "session-image",
+    src: "/images/photo-1487956382158-bb926046304a.jpg",
+    alt: "walkingimage"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Rub Urban")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "twoCol-card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "session-image",
+    src: "/images/photo-1487956382158-bb926046304a.jpg",
+    alt: "walkingimage"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Frottage Art"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "bottom-banner"
+  })));
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Urban);
+/* harmony default export */ __webpack_exports__["default"] = (Rubbing);
+
+/***/ }),
+
+/***/ "./client/components/TenMinsWalk.jsx":
+/*!*******************************************!*\
+  !*** ./client/components/TenMinsWalk.jsx ***!
+  \*******************************************/
+/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+function TenMinsWalk() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "main-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "top-container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "home-image",
+    src: "/images/photo-1487956382158-bb926046304a.jpg",
+    alt: "walkingimage"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "banner-contents"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", null, "10-Minute Walks"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Taking a few 10-minutes walks spread throughout the day every day makes a difference. Not only it is good for your physical health, it also positively impacts your mood and mental health."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    className: "banner-btn"
+  }, "View More")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "page-contents"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Bring a relaxed focus to this everyday pursuit. "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Make a daily  10-mins mindful walking practice. It\u2019s amazing how different we feel when paying attention to what\u2019s going on around us rather than what\u2019s swirling in our head. Instead, we are mindfully walking using a meditative technique, with eyes wide open, a pace that suits us, and our attention on whichever environment we find ourselves in. Walk around the neighborhood, walk around the house, walk around a local track, walk on a nice trail\u2026"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Reduce stress"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Reduce risk of obesity"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Lower of breast cancer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Lower risk of depression"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Lowering blood pressure"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Regular walk help to maintain bone density"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "art-journal"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "session-image",
+    src: "/images/photo-1487956382158-bb926046304a.jpg",
+    alt: "walkingimage"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Take a break")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "session-image",
+    src: "/images/photo-1487956382158-bb926046304a.jpg",
+    alt: "walkingimage"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Where you go")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "session-image",
+    src: "/images/photo-1487956382158-bb926046304a.jpg",
+    alt: "walkingimage"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "What you see")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    className: "session-image",
+    src: "/images/photo-1487956382158-bb926046304a.jpg",
+    alt: "walkingimage"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "The Art of Journaling"))))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (TenMinsWalk);
 
 /***/ }),
 
